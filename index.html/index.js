@@ -21,13 +21,19 @@ else if(numero == 1){
 }
 
 else{
-    var body = document.body;
-    body.style.background = "green";
+    const body = document.body;
+    body.style.background = "yellow"
 }
 }
 
 function botao2(){
     let diminuir = numero-=1;
     document.getElementById("resposta").innerHTML = numero
+
+    let valor2 = 2;
+    if(numero == valor2){
+var body = document.body;
+body.style.background = "orange";
+    }
 }
 
